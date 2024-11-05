@@ -1,0 +1,72 @@
+*{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;  
+}
+
+body{
+    background-color: #004865;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#scoreboard{
+    width: 100%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+}
+
+#teamNames{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+}
+
+#scoresheet{
+    width: 100%;
+    color: rgba(255, 0, 0, 0.668);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+#homePoints, #awayPoints{
+    background-color: black;
+    border: 1px solid blacks;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
+button {
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    font-size: 1.8rem;
+    transition: 0.3s;
+    box-shadow: 5px 5px 5px black;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.reset{
+    width: 100%;
+}
